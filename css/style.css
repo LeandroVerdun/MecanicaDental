@@ -1,6 +1,7 @@
 body,html {
     height: 100%;
     width: 100%;
+
 }
 
 .theet-error {
@@ -126,5 +127,19 @@ body,html {
     height: 15vh;
     width: 100%;
     font-size: 80px;
-    margin-left: 45%;
+    text-align: center;
+    line-height: 15vh;
+    font-family: 'Agbalumo', sans-serif;
+    color: #00afd0;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
