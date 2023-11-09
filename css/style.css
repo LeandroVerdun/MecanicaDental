@@ -120,3 +120,11 @@ body,html {
     background-image: linear-gradient(to bottom, #00ffd0 , #fff);
 
 }
+
+
+.tittle-home {
+    height: 15vh;
+    width: 100%;
+    font-size: 80px;
+    margin-left: 45%;
+}
