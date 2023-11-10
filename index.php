@@ -13,13 +13,23 @@
         //verificamos que la vista exista, que el valor no sea login ni 404
         if(is_file("./vistas/".$_GET['vista'].".php") && $_GET['vista']
         !="login" && $_GET['vista']!="404"){
-            //cargamos el navbar
-            include "./inc/navbar.php";
-            //cargamos el script para que sea una pagina dinamica en movil
-            include "./inc/script.php";
-            //incluimos las vistas cargadas dinamicamente con el metodo get
-            include "./vistas/".$_GET['vista'].".php";
+            
 
+            if($_GET['vista']=="user_new"){
+                include "./vistas/user_new.php";   
+            }else{
+                //cargamos el navbar
+                include "./inc/navbar.php";
+                //cargamos el script para que sea una pagina dinamica en movil
+                include "./inc/script.php";
+                //incluimos las vistas cargadas dinamicamente con el metodo get
+                include "./vistas/".$_GET['vista'].".php";
+
+            }
+
+        
+
+            
 
 
         }else{
@@ -31,9 +41,7 @@
                 include "./vistas/404.php";
             }
         }
-
-
-        
+     
     ?>
 
 </body>

@@ -1,11 +1,11 @@
 <div class="main-container">
 
-    <form class="box login" action="" method="POST" autocomplete="off">
+    <form class="box login box-login-animation" action="" method="POST" autocomplete="off">
         
 
         <div class="title-and-image">
             <div class="jaw"></div>
-            <div class="div-conatiner">
+            <div class="div-conatiner login-container">
                 <h5 id="title-login">Inventario de Mecanica Dental</h5>
     
 		        <div class="field">
@@ -27,7 +27,7 @@
                         <button type="submit" class="button is-info is-rounded">Iniciar sesion</button>
                     </p> 
                     <p class="has-text-centered mb-4 mt-3">
-                        <button type="submit" class="button is-primary is-rounded">Crear usuario</button>
+                        <a type="submit" class="button is-primary is-rounded" href="index.php?vista=user_new">Crear usuario</a>
                     </p>   
                 </div>   
             </div>

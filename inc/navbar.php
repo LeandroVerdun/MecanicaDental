@@ -13,27 +13,16 @@
 
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item">
-        Inicio
-      </a>
-
-      <a class="navbar-item">
-        Lista
-      </a>
-
-      
-          <a class="navbar-item">
-            Comprar
-          </a>
-          
-          
-        
+      <a class="navbar-item" href="index.php?vista=home">Inicio</a>
+      <a class="navbar-item" href="index.php?vista=list">Lista</a>
+      <a class="navbar-item" href="index.php?vista=buy">Comprar</a>
+                  
     </div>
 
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary">
+          <a class="button is-primary" href="index.php?vista=user_new">
             <strong>Registrarse</strong>
           </a>
           <a class="button is-link">
