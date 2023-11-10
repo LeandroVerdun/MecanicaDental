@@ -132,7 +132,7 @@ body,html {
     }
 }
 
-.box-login-animation, .user-new {
+.box-login-animation, .user-new, .all-user-container, .main-container  {
     animation: fadeIn 0.8s ease-in-out forwards;
 
 }
@@ -143,7 +143,7 @@ body,html {
 }
 
 #user-form, .login-container{
-    animation: fadeIn 4s ease-in-out forwards;
+    animation: fadeIn 3.7s ease-in-out forwards;
     
 }
 
@@ -210,4 +210,5 @@ body,html {
     text-align: center;
     font-size: 25px;
 }
+
 

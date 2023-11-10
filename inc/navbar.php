@@ -25,7 +25,7 @@
           <a class="button is-primary" href="index.php?vista=user_new">
             <strong>Registrarse</strong>
           </a>
-          <a class="button is-link">
+          <a class="button is-link" href="index.php?vista=login">
             Salir
           </a>
         </div>

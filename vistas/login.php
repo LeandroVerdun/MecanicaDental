@@ -28,6 +28,9 @@
                     </p> 
                     <p class="has-text-centered mb-4 mt-3">
                         <a type="submit" class="button is-primary is-rounded" href="index.php?vista=user_new">Crear usuario</a>
+                    </p>
+                    <p class="has-text-centered mb-4 mt-3">
+                        <a type="submit" class="button is-primary is-rounded" href="index.php?vista=home">directo al home</a>
                     </p>   
                 </div>   
             </div>
