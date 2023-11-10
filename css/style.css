@@ -123,6 +123,15 @@ body,html {
 }
 
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .tittle-home {
     height: 15vh;
     width: 100%;
@@ -135,11 +144,9 @@ body,html {
     animation: fadeIn 2.5s ease-in-out forwards;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+
+.sub-home {
+    color: #00ffd0;
+    animation: fadeIn 2.5s ease-in-out forwards;
+    animation-delay: 1.5s;
 }
