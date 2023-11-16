@@ -1,4 +1,4 @@
-const ajax_form=document.querySelectorAll(".AjaxForm");
+const ajax_form=document.querySelectorAll(".ajaxForm");
 
 
 function send_ajax_form(e) {
@@ -12,22 +12,22 @@ function send_ajax_form(e) {
         let method=this.getAttribute("method");
         let action=this.getAttribute("action");
 
-        let headers= new headers();
+        let header= new Headers();
 
 
         let config={
             method: method,
-            headers: headers,
+            headers: header,
             mode: 'cors',
             cache: 'no-cache',
             body: data
         };
 
         fetch(action,config)
-        .then(respuesta => respuesta.text())
-        .then(respuesta =>{
+        .then(response => response.text())
+        .then(response =>{
             let container=document.querySelector(".form-rest");
-            container.innerHTML = respuesta;
+            container.innerHTML = response;
         });
         
     }

@@ -10,6 +10,9 @@
         if(!isset($_GET['vista']) || $_GET['vista']==""){
             $_GET['vista']="login";
         }
+
+
+
         //verificamos que la vista exista, que el valor no sea login ni 404
         if(is_file("./vistas/".$_GET['vista'].".php") && $_GET['vista']
         !="login" && $_GET['vista']!="404"){
@@ -29,9 +32,6 @@
 
         
 
-            
-
-
         }else{
             //le ponemos que cargue la vista login si se carga con el metodo post
             if($_GET['vista']=="login"){
@@ -43,6 +43,7 @@
         }
      
     ?>
+    <script src="./js/ajax.js"></script>
 
 </body>
 </html>
