@@ -81,7 +81,7 @@
             if($page==$i){
                 $table.='<li><a class="pagination-link is-current" href="'.$url.$i.'">'.$i.'</a></li>';
             }else{
-                $table.='<li><a class="pagination-link" href="'.$url..$i.'">'.$i.'</a></li>';
+                $table.='<li><a class="pagination-link" href="'.$url.$i.'">'.$i.'</a></li>';
             }
             $ci++;
         }
